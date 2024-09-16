@@ -15,7 +15,8 @@ Este projeto é uma aplicação web moderna desenvolvida Django. Ele oferece uma
 - Categorização das imagens
 - Informações importante sobre cada imagem
 
-## 🚀 Como executar o projetoSiga estas etapas para executar o projeto localmente
+## 🚀 Como executar o projeto
+### Siga estas etapas para executar o projeto localmente
 
 Clone o repositório:
 ```powershell
