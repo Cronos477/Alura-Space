@@ -143,7 +143,7 @@ table {
 .cards__lista{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-content: space-between;
 }
 
@@ -151,6 +151,7 @@ table {
     border-radius: 10px;
     box-shadow: 0px 10px 10px #00000050;
     color: #FFFFFF;
+    margin-right: 40px;
     margin-bottom: 1.5rem;
     position: relative;
     width: 450px;
@@ -204,6 +205,7 @@ table {
 }
 
 .galeria {
+    justify-content: center;
     display: flex;
     width: 100%;
 }
@@ -291,10 +293,17 @@ table {
     margin-right: 1.5rem;
 }
 
+.body-base {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .pagina-inicial {
-    max-width: 1440px;
+    min-width: 1440px;
     padding: 1.5rem;
     margin: 0 auto;
+    flex: 1;
 }
 
 .populares {
@@ -350,6 +359,7 @@ table {
 }
 
 .rodape {
+    margin-top: auto;
     background-color: #04244F;
     width: 100%;
     padding: 1.5rem 3rem;
@@ -398,4 +408,8 @@ table {
 .tags__tag:hover {
     border: 2px solid #7B78E5;
     cursor: pointer;
+}
+
+.row {
+    max-width: 600px;
 }

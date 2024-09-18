@@ -97,18 +97,30 @@ table {
     background-color: #041A37;
     border-radius: 8px;
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
+}
+
+.busca__form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .busca__input {
     align-items: center;
     background-color: transparent;
     border: none;
+    color: #ffffff;
     font-size: 1rem;
     height: 24px;
     padding: 10px;
     width: 500px;
+}
+
+.busca__button {
+    background-color: transparent;
+    border: none;
 }
 
 .busca__icone {
@@ -147,6 +159,7 @@ table {
 .card__imagem {
     width: 450px;
     height: 260px;
+    object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
 
@@ -191,6 +204,8 @@ table {
 }
 
 .galeria {
+    justify-content: center;
+    align-items: center;
     display: flex;
     width: 100%;
 }
@@ -233,6 +248,8 @@ table {
 
 .imagem__titulo {
     font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 12px;
     line-height: 2rem;
     color: #FFFFFF;
 }
@@ -243,6 +260,7 @@ table {
 
 .imagem__descricao {
     font-size: 0.7rem;
+    font-size: 16px;
 }
 
 .menu-lateral {
