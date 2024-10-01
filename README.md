@@ -18,6 +18,10 @@ Este projeto é uma aplicação web moderna desenvolvida Django. Ele oferece uma
 ## 🚀 Como executar o projeto
 ### Siga estas etapas para executar o projeto localmente
 
+Acesse https://cronos-alura-space.vercel.app/
+
+ou
+
 Clone o repositório:
 ```powershell
 git clone https://github.com/Cronos477/Alura-Space.git
